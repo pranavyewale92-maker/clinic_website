@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+       #register { background: linear-gradient(to right, #7a7a7a, #232323); text-align: center; padding: 20px 20px; color:white}
+      .navbar { display: flex; align-items: center; padding: 10px 20px; background: #343434; border-radius: 0 0 20px 20px; }
+    nav { flex: 1; text-align: right; }
+    #logo { height: 50px; width: 50px; margin-left: 12px; border-radius: 50%; }
+    nav ul { display: inline-block; list-style-type: none; }
+    nav ul li { display: inline; margin-right: 20px; }
+    a { text-decoration: none; color: white; font-weight: 500; }
+    a:hover { color: #ff523b; }
+    .login-box { background: white; width: 400px;margin: auto; padding: 40px; border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.2); }
+    .login-box-form{ max-width: 320px; margin-left: 20px; border-radius: 20px;}
+    input { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 10px;color: white; }
+    button { background: #ff523b; color: white; padding: 10px 20px; border: none; border-radius: 15px; cursor: pointer; }
+    button:hover { background: #fffdfd; color: black; }
+    .register{
+        background: white;
+        color: black;
+    }
+    .register a{
+      text-decoration: none; background: #ff523b; color: white; padding: 10px 20px; border: none; border-radius: 15px; cursor: pointer; 
+    }
+    .register a:hover {text-decoration: none; background: #fffdfd; color: black; }
+
+    </style>
+  </head>
+  <body>
+     <div class="header" id="home">
+    <div class="navbar">
+     <div class="logo"><a href="index.html"><img src="rheumdermalogo.jpg" id="logo"></a></div>
+      <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="doc.html">Doctors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="acc.html">Account</a></li>
+        </ul>
+      </nav>
+    </div>
+      <section id="register">
+    <h2>Sign Up</h2>
+    <div class="login-box">
+      <form class="login-box-form">
+        <input type="email" placeholder="Enter Email" required><br>
+        <input type="text" placeholder="Enter Username" required><br>
+        <input type="password" placeholder="Enter Password" required><br>
+        <input type="password" placeholder="confirm Password" required><br>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p class="register" >allready  have an account? <a href="acc.html">Login</a></p>
+    </div>
+  </section>
+
+    
+    <script src="" async defer></script>
+  </body>
+</html>

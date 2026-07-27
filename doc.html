@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .navbar { display: flex; align-items: center; padding: 10px 20px; background: #343434; border-radius: 0 0 20px 20px; }
+    nav { flex: 1; text-align: right; }
+    #logo { height: 50px; width: 50px; margin-left: 12px; border-radius: 50%; }
+    nav ul { display: inline-block; list-style-type: none; }
+    nav ul li { display: inline; margin-right: 20px; }
+    a { text-decoration: none; color: white; font-weight: 500; }
+    a:hover { color: #ff523b; }
+      .title { text-align: center; margin: 0 auto 50px; position: relative; color: #413737; }
+    .doctors { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin: 50px 0; }
+    .doctor-card { width: 300px; margin: 15px; text-align: center; border-radius: 20px; cursor: pointer; padding: 20px; box-shadow: 0 14px 40px rgba(0,0,0,0.2); transition: 0.4s; }
+    .doctor-card img { width: 100%; height: 250px; border-radius: 15px; object-fit: cover; }
+    .doctor-card:hover { transform: translateY(-8px); }
+    .doctor-card:nth-child(1){background:#a7dfff;}
+    .doctor-card:nth-child(2){background:#f2acd7;}
+    .doctor-card:nth-child(3){background:#ef9075;}
+    #doctors .appointmentBtn { text-decoration: none;   padding: 10px 15px; background-color: #191818; color: white; border: none; border-radius: 15px; cursor: pointer; margin-top: 10px; }
+    #doctors .appointmentBtn:hover { background-color: #ff523b; }
+    </style>
+  </head>
+  <body>
+    <div class="header" id="home">
+    <div class="navbar">
+     <div class="logo"><a href="index.html"><img src="rheumdermalogo.jpg" id="logo"></a></div>
+      <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="doc.html">Doctors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="acc.html">Account</a></li>
+        </ul>
+      </nav>
+    </div>
+     <section id="doctors">
+    <h2 class="title">Our Specialists</h2>
+    <div class="doctors">
+      <div class="doctor-card">
+        <img src="sushant3.jpg" alt="Dr Sushant Shinde">
+        <h3>DR Sushant Shinde</h3>
+        <p>MBBS, MD - General Medicine<br>12 years experience overall<br>Consultant Physician</p>
+        <p><strong>Days:</strong> Fri<br><strong>Timing:</strong> 11:00am - 8:00pm</p>
+        <p>First Consultation: ₹2000 <br> Follow Up: ₹1500</p>
+        <a href="book.html" class="appointmentBtn">Book Appointment</a>
+      </div>
+
+      <div class="doctor-card">
+        <img src="dr rashmi.jpg" alt="Dr Rashmi Shinde">
+        <h3>DR Rashmi Shinde</h3>
+        <p>MBBS, DDVL<br>16 years experience overall<br>Dermatologist, Trichologist, Cosmetologist</p>
+        <p><strong>Days:</strong> Tue, Thu, Sat<br><strong>Timing:</strong> 5:00pm - 8:00pm</p>
+        <p>First Consultation: ₹1200 <br> Follow Up: ₹800</p>
+      <a href="book.html" class="appointmentBtn">Book Appointment</a>
+      </div>
+
+      <div class="doctor-card">
+        <img src="dr priyanka.jpg" alt="Dr Priyanka Mahajan">
+        <h3>DR Priyanka Mahajan</h3>
+        <p>MBBS, DNB - Psychiatry<br>12 years experience overall<br>Psychiatrist</p>
+        <p><strong>Days:</strong> Mon, Wed 5:00pm - 8:00pm<br>Sat 3:00 - 4:00pm</p>
+        <p>First Consultation: ₹2500 <br> Follow Up: ₹2000</p>
+        <a href="book.html" class="appointmentBtn">Book Appointment</a>
+      </div>
+    </div>
+  </section>
+    <script src="" async defer></script>
+  </body>
+</html>
+ 
